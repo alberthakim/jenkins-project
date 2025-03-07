@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/szeevi/fibvar.git'  // Replace with your repository URL
+                git 'https://github.com/alberthakim/jenkins-project'  // Replace with your repository URL
             }
         }
 
